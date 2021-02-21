@@ -59,7 +59,7 @@
 .coming-soon {
   text-align: center;
   color: #fff;
-  font-family: 'Moontime', sans-serif;
+  font-family: 'Sacramento', cursive;
   font-size: 125px;
 }
 
@@ -68,7 +68,7 @@
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  font-family: 'League Spartan', arial;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 25px;
   padding-top: 32px;
 }
