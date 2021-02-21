@@ -3,6 +3,11 @@
   src: ('moontime.ttf') format('truetype')
 }
 
+@font-face {
+  font-family: 'League Spartan';
+  src: ('leaguespartan.otf') format('opentype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,4 +23,3 @@ code {
 }
 
 @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
-@import url(https://allfont.net/allfont.css?fonts=league-spartan);
