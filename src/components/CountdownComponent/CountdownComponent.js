@@ -1,5 +1,5 @@
 import { React, Component } from 'react';
-import Countdown from 'react-countdown';
+import Countdown, { zeroPad } from 'react-countdown';
 import {
     Container,
     Row,
@@ -24,7 +24,36 @@ class CountdownComponent extends Component {
                 <Container fluid>
                     <Row>
                         <Col className="countdown-container">
-                            <img src={ bg } alt=""></img>
+                            <img src={ bg } alt=""/>
+                            <div className="countdown">
+                                <Container fluid>
+                                    <Row>
+                                        <Col className="flex-c">
+                                            <span className="coming-soon">Coming Soon</span>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="flex-c">
+                                            <div className="time-container">
+                                                <span className="days">{ zeroPad(days, 2) }</span><br/>
+                                                <span className="unit">DAYS</span>
+                                            </div>
+                                            <div className="time-container">
+                                                <span className="hours">{ zeroPad(hours, 2) }</span><br/>
+                                                <span className="unit">HOURS</span>
+                                            </div>
+                                            <div className="time-container">
+                                                <span className="minutes">{ zeroPad(minutes, 2) }</span><br/>
+                                                <span className="unit">MINUTES</span>
+                                            </div>
+                                            <div className="time-container">
+                                                <span className="seconds">{ zeroPad(seconds, 2) }</span><br/>
+                                                <span className="unit">SECONDS</span>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
