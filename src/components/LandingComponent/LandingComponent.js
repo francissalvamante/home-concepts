@@ -6,7 +6,7 @@ import {
     Col
 } from 'react-bootstrap';
 import carouselImg from '../../img/carousel-contents/cover.jpg';
-import './LandingComponent.css'
+import './LandingComponent.css';
 
 class LandingComponent extends Component {
 

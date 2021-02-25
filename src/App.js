@@ -12,10 +12,10 @@ function App() {
     <Router>
       <div className="App">
         <NavbarComponent></NavbarComponent>
-        <Route exact path="/">
+        <Route exact path="/home-concepts">
           <CountdownComponent/>
         </Route>
-        <Route path="/home">
+        <Route path="/home-concepts/home">
           <LandingComponent/>
         </Route>
       </div>
