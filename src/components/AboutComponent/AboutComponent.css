@@ -1,0 +1,16 @@
+.about-container {
+    padding: 0 15px;
+}
+
+.ceo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.certification {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}

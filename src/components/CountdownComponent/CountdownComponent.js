@@ -3,7 +3,8 @@ import Countdown, { zeroPad } from 'react-countdown';
 import {
     Container,
     Row,
-    Col
+    Col,
+    Image
 } from 'react-bootstrap';
 import { Redirect } from 'react-router-dom';
 import bg from '../../img/carousel-contents/cover.jpg';
@@ -24,7 +25,7 @@ class CountdownComponent extends Component {
                 <Container fluid>
                     <Row>
                         <Col className="countdown-container">
-                            <img src={ bg } alt=""/>
+                            <Image src={ bg } alt="" fluid/>
                             <div className="countdown">
                                 <Container fluid>
                                     <Row>
